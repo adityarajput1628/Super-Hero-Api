@@ -1,0 +1,18 @@
+.button{
+    background-color: #42d5e7b3;
+    text-decoration: auto;
+    font-family: cursive;
+    border-radius: 7px;
+}
+
+body::after{
+background: url("hero.jpg");
+content: "";
+opacity: 0.5;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: -1;
+}
